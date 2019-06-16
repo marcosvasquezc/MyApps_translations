@@ -1,0 +1,108 @@
+<resources>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_about">О программе</string>
+    <string name="action_info_center">Инфо-центр</string>
+    <string name="action_find_mac_vendor">Поиск вендора по MAC</string>
+
+    <string name="nav_header_options">Опции</string>
+    <string name="action_rate_app">Поставить оценку</string>
+    <string name="action_upgrade_to_pro">Перейти на PRO</string>
+
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+
+    <string name="navigation_description">Список доступных вкладок</string>
+
+    <!-- Tabs -->
+    <string name="tab_general">Общее</string>
+    <string name="tab_net">Сеть</string>
+    <string name="tab_net_info">Инфо</string>
+    <string name="tab_nets">Сети</string>
+    <string name="tab_net_devices">Устройства</string>
+    <string name="tab_net_graph">CH 2.4</string>
+    <string name="tab_net_graph5">CH 5.0</string>
+
+    <!-- Menu -->
+
+    <string name="enabled">Включен</string>
+    <string name="disabled">Выключен</string>
+
+    <!-- Net -->
+
+    <string name="link_speed">Скорость</string>
+    <string name="frequency">Частота</string>
+    <string name="signal">Сигнал</string>
+    <string name="channel">Канал</string>
+    <string name="net_level">Уровень</string>
+    <string name="support_5ghz">Диапазон 5 GHz</string>
+    <string name="support_wifi_direct">Wi-Fi Direct</string>
+
+    <string name="header_info">Информация</string>
+    <string name="header_device">Устройство</string>
+
+    <string name="gateway">Шлюз</string>
+    <string name="netmask">Маска подсети</string>
+    <string name="dns1">dns1</string>
+    <string name="dns2">dns2</string>
+    <string name="dhcp_server">DHCP сервер</string>
+
+    <string name="enter_mac_addr">Введите MAC-адрес.</string>
+    <string name="no_result">Ничего не найдено</string>
+    <string name="find">Найти</string>
+    <string name="no_available_nets">Сети не найдены</string>
+    <string name="off">Выключен</string>
+    <string name="not_connected">Не подключено</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="pref_category_general">Общее</string>
+    <string name="pref_category_appearance">Вид</string>
+    <string name="pref_category_other">Еще</string>
+
+    <string name="pref_title_set_language">Язык</string>
+
+    <string name="language_default">По умолчанию</string>
+
+    <string name="pref_title_dark_theme">Применить темную тему</string>
+    <string name="pref_description_dark_theme">Применить темную тему для интерфейса</string>
+
+    <!-- Strings related to Message -->
+
+    <string name="message_title">Сообщение</string>
+
+    <!-- Defender -->
+    <string name="app_defender">App Defender</string>
+    <string name="app_defender_msg">Извините, но проверка подлинности не удалась.\nПожалуйста, подключитесь к интернету и нажмите перепроверить.</string>
+    <string name="app_recheck">Перепроверить</string>
+    <string name="app_exit">Выйти</string>
+
+    <!-- PRO -->
+    <string name="using_theme_expired_non_pro">Извините, но время использования темы истекло!\nУстановите PRO версию.</string>
+
+   <!-- Info center -->
+
+    <string name="create_report">Создать отчёт</string>
+    <string name="create_report_msg">Отчёт сформирован. Смотрите в</string>
+    <string name="create_report_err">Ошибка создания отчёта!</string>
+    <string name="create_report_err_non_pro">Создание отчета доступно только в PRO версии.</string>
+    <string name="create_report_info">Информация о wi-fi, сетях, устройствах будет сохранена в файл.</string>
+    <string name="create">Создать</string>
+
+    <string name="error">Ошибка</string>
+    <string name="close">Закрыть</string>
+    <string name="open">Открыть</string>
+    <string name="share">Отправить</string>
+    <string name="send_to_email">Отправить на почту:</string>
+
+   <!-- Strings related to About -->
+
+   <string name="about_version">версия</string>
+
+    <string name="about_author">автор\n
+        Ефремов Андрей\n
+        aka andr7e</string>
+
+</resources>

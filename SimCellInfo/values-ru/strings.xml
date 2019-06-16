@@ -1,0 +1,46 @@
+<resources>
+    <string name="action_settings">Настройки</string>
+    <string name="action_about">О программе</string>
+
+    <!-- SIM -->
+    <string name="sim_phone_type">Тип телефона</string>
+    <string name="sim_operator_name">Оператор</string>
+    <string name="sim_operator_code">Код оператора</string>
+    <string name="sim_country_code">Код страны</string>
+    <string name="network_type">Тип сети</string>
+    <string name="sim_state">Состояние</string>
+    <string name="sim_icc_card">ICC</string>
+
+    <string name="common">Общее</string>
+    <string name="neighbor_cells">Соседние вышки</string>
+    <string name="data_enabled">Передача данных</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="ready">Готово</string>
+    <string name="not_ready">Не готово</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="pref_category_general">Общее</string>
+    <string name="pref_category_appearance">Вид</string>
+
+    <string name="pref_title_dark_theme">Применить темную тему</string>
+    <string name="pref_description_dark_theme">Применить темную тему для интерфейса</string>
+
+    <string name="pref_title_set_language">Язык</string>
+
+    <string name="language_default">По умолчанию</string>
+
+    <!-- Strings related to About -->
+
+    <string name="about_version">версия</string>
+
+    <string name="about_author">автор\n
+        Ефремов Андрей\n
+        aka andr7e</string>
+
+</resources>

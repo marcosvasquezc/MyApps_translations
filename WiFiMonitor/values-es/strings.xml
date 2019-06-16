@@ -1,0 +1,108 @@
+<resources>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="action_about">Acerca de</string>
+    <string name="action_info_center">Centro de información</string>
+    <string name="action_find_mac_vendor">Find vendor by MAC</string>
+
+    <string name="nav_header_options">Opciones</string>
+    <string name="action_rate_app">Valorar App</string>
+    <string name="action_upgrade_to_pro">Actualizar a PRO</string>
+
+    <string name="navigation_drawer_open">Abrir panel de navegación</string>
+    <string name="navigation_drawer_close">Cerrar panel de navegación</string>
+
+    <string name="navigation_description">Listado de pestañas disponibles</string>
+
+    <!-- Tabs -->
+    <string name="tab_general">General</string>
+    <string name="tab_net">Red</string>
+    <string name="tab_net_info">Info</string>
+    <string name="tab_nets">Nets</string>
+    <string name="tab_net_devices">Devices</string>
+    <string name="tab_net_graph">CH 2.4</string>
+    <string name="tab_net_graph5">CH 5.0</string>
+
+    <!-- Menu -->
+
+    <string name="enabled">Activado</string>
+    <string name="disabled">Desactivado</string>
+
+    <!-- Net -->
+
+    <string name="link_speed">Ancho de banda</string>
+    <string name="frequency">Frecuencia</string>
+    <string name="signal">Señal</string>
+    <string name="channel">Channel</string>
+    <string name="net_level">Level</string>
+    <string name="support_5ghz">Band 5 GHz</string>
+    <string name="support_wifi_direct">Wi-Fi Direct</string>
+
+    <string name="header_info">Info</string>
+    <string name="header_device">Device</string>
+
+    <string name="gateway">Gateway</string>
+    <string name="netmask">Netmask</string>
+    <string name="dns1">dns1</string>
+    <string name="dns2">dns2</string>
+    <string name="dhcp_server">DHCP server</string>
+
+    <string name="enter_mac_addr">Please, enter the MAC address.</string>
+    <string name="no_result">No results</string>
+    <string name="find">Find</string>
+    <string name="no_available_nets">No available nets</string>
+    <string name="off">Off</string>
+    <string name="not_connected">Not connected</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="title_activity_settings">Ajustes</string>
+
+    <string name="pref_category_general">General</string>
+    <string name="pref_category_appearance">Appearance</string>
+    <string name="pref_category_other">Other</string>
+
+    <string name="pref_title_set_language">Idioma</string>
+
+    <string name="language_default">Por defecto</string>
+
+    <string name="pref_title_dark_theme">Use dark theme</string>
+    <string name="pref_description_dark_theme">Apply dark theme to interface</string>
+
+    <!-- Strings related to Message -->
+
+    <string name="message_title">Mensaje</string>
+
+    <!-- Defender -->
+    <string name="app_defender">App Defender</string>
+    <string name="app_defender_msg">Sorry, but defender can\'t check app validity.\nPlease connect to the internet and click on the recheck.</string>
+    <string name="app_recheck">Recheck</string>
+    <string name="app_exit">Exit</string>
+
+    <!-- PRO -->
+    <string name="using_theme_expired_non_pro">Sorry, but free using theme expired!\nIt\'s available in PRO version.</string>
+
+    <!-- Info center -->
+
+    <string name="create_report">Crear reporte</string>
+    <string name="create_report_msg">Reporte creado correctamente!\nVer</string>
+    <string name="create_report_err">¡No se puede crear reporte!</string>
+    <string name="create_report_err_non_pro">¡No se puede crear reporte!\nSolo disponible en la versión PRO.</string>
+    <string name="create_report_info">Information about wi-fi, nets, devices will be saved in html file in app data folder.</string>
+    <string name="create">Crear</string>
+
+    <string name="error">Error</string>
+    <string name="close">Cerrar</string>
+    <string name="open">Abrir</string>
+    <string name="share">Share</string>
+    <string name="send_to_email">Send to email:</string>
+
+    <!-- Strings related to About -->
+
+    <string name="about_version">versión</string>
+
+    <string name="about_author">autor\n
+        Andrey Efremov\n
+        aka andr7e</string>
+
+</resources>
