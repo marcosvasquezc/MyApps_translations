@@ -50,6 +50,7 @@
 
     <string name="header_info">Info</string>
     <string name="header_device">Device</string>
+    <string name="header_address">Address</string>
 
     <string name="gateway">Gateway</string>
     <string name="netmask">Netmask</string>
@@ -82,6 +83,7 @@
         <item>Русский</item>
         <item>Español</item>
         <item>Polski</item>
+        <item>Deutsch</item>
     </string-array>
     <string-array name="pref_language_list_values" translatable="false">
         <item>-1</item>
@@ -89,6 +91,7 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
     </string-array>
 
     <string name="pref_title_dark_theme">Use dark theme</string>
@@ -115,7 +118,7 @@
     <string name="create_report_msg">Report successfully created!\nLook in</string>
     <string name="create_report_err">Can\'t create report!</string>
     <string name="create_report_err_non_pro">Can not create report!\nIt\'s available in PRO version.</string>
-    <string name="create_report_info">Information about wi-fi, nets, devices will be saved in html file in app data folder.</string>
+    <string name="create_report_info">Information about Wi-Fi, nets, devices will be saved in html file in app data folder.</string>
     <string name="create">Create</string>
 
     <string name="error">Error</string>

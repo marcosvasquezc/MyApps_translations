@@ -24,6 +24,7 @@
     <string name="pressure">Barometer</string>
 
     <string name="no_input_data">No input data</string>
+
     <string name="unit_accelerometer">m/s²</string>
     <string name="unit_light">lx</string>
     <string name="unit_proximity">cm</string>
@@ -68,11 +69,13 @@
         <item>@string/language_default</item>
         <item>English</item>
         <item>Русский</item>
+        <item>Deutsch</item>
     </string-array>
     <string-array name="pref_language_list_values" translatable="false">
         <item>-1</item>
         <item>0</item>
         <item>1</item>
+        <item>2</item>
     </string-array>
 
     <string name="pref_title_use_pressure_mm_hg">Pressure unit</string>

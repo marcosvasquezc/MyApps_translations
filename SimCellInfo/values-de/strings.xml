@@ -1,0 +1,46 @@
+<resources>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_about">Über</string>
+
+    <!-- SIM -->
+    <string name="sim_phone_type">Telefontyp</string>
+    <string name="sim_operator_name">Betreiber</string>
+    <string name="sim_operator_code">Betreibercode</string>
+    <string name="sim_country_code">Ländercode</string>
+    <string name="network_type">Netzwerktyp</string>
+    <string name="sim_state">Status</string>
+    <string name="sim_icc_card">ICC-Karte</string>
+
+    <string name="common">Generell</string>
+    <string name="neighbor_cells">Nachbarzellen</string>
+    <string name="data_enabled">Daten aktiviert</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">No</string>
+
+    <string name="ready">Bereit</string>
+    <string name="not_ready">Nicht bereit</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="title_activity_settings">Einstellungen</string>
+
+    <string name="pref_category_general">Allgemein</string>
+    <string name="pref_category_appearance">Aussehen</string>
+
+    <string name="pref_title_dark_theme">Dunkles Theme verwenden</string>
+    <string name="pref_description_dark_theme">Färbt das Interface dunkel</string>
+
+    <string name="pref_title_set_language">Sprache</string>
+
+    <string name="language_default">Standard</string>
+
+    <!-- Strings related to About -->
+
+    <string name="about_version">Version</string>
+
+    <string name="about_author">Autor\n
+        Andrey Efremov\n
+        aka andr7e</string>
+
+</resources>

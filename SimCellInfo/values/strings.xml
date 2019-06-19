@@ -44,11 +44,13 @@
         <item>@string/language_default</item>
         <item>English</item>
         <item>Русский</item>
+        <item>Deutsch</item>
     </string-array>
     <string-array name="pref_language_list_values" translatable="false">
         <item>-1</item>
         <item>0</item>
         <item>1</item>
+        <item>2</item>
     </string-array>
 
     <!-- Strings related to About -->

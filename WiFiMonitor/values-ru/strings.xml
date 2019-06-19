@@ -40,6 +40,7 @@
 
     <string name="header_info">Информация</string>
     <string name="header_device">Устройство</string>
+    <string name="header_address">Адрес</string>
 
     <string name="gateway">Шлюз</string>
     <string name="netmask">Маска подсети</string>

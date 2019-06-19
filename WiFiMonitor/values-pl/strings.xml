@@ -40,6 +40,7 @@
 
     <string name="header_info">Info</string>
     <string name="header_device">Device</string>
+    <string name="header_address">Adres</string>
 
     <string name="gateway">Gateway</string>
     <string name="netmask">Netmask</string>
