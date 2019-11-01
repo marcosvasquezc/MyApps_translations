@@ -2,5 +2,6 @@
 
 ```
 * German: Tim Köhler
+* Polish: kodex2
 	
 ```
