@@ -20,7 +20,7 @@
     <string name="light">Освещенность</string>
     <string name="pressure">Барометр</string>
 
-    <string name="no_input_data">Нет данных</string>
+    <string name="no_input_data">Нет данных от датчика</string>
 
     <string name="unit_accelerometer">м/с²</string>
     <string name="unit_light">лк</string>
@@ -55,6 +55,8 @@
 
     <string name="title_activity_settings">Настройки</string>
 
+    <string name="pref_category_appearance">Вид</string>
+
     <string name="pref_title_set_language">Язык</string>
 
     <string name="language_default">По умолчанию</string>
@@ -64,6 +66,9 @@
 
     <string name="pref_title_use_new_copmpass">Работа компаса</string>
     <string name="pref_description_use_new_copmpass">Использовать другой алгоритм работы</string>
+
+    <string name="pref_title_dark_theme">Применить темную тему</string>
+    <string name="pref_description_dark_theme">Применить темную тему для интерфейса</string>
     
     <!-- Strings related to About -->
 

@@ -20,7 +20,7 @@
     <string name="light">Licht</string>
     <string name="pressure">Barometer</string>
 
-    <string name="no_input_data">Keine Eingabewerte</string>
+    <string name="no_input_data">Keine Daten vom Sensor</string>
 
     <string name="unit_accelerometer">m/s²</string>
     <string name="unit_light">lx</string>
@@ -55,6 +55,8 @@
 
     <string name="title_activity_settings">Einstellungen</string>
 
+    <string name="pref_category_appearance">Aussehen</string>
+
     <string name="pref_title_set_language">Sprache</string>
 
     <string name="language_default">Standard</string>
@@ -64,7 +66,10 @@
 
     <string name="pref_title_use_new_copmpass">Kompass-Methode</string>
     <string name="pref_description_use_new_copmpass">Zweite Methode für Kompass verwenden</string>
-        
+
+    <string name="pref_title_dark_theme">Dunkles Theme verwenden</string>
+    <string name="pref_description_dark_theme">Färbt das Interface dunkel</string>
+    
     <!-- Strings related to About -->
 
     <string name="about_version">Version</string>
