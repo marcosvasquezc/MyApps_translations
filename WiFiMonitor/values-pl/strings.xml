@@ -54,6 +54,8 @@
     <string name="no_available_nets">Brak dostępnych sieci</string>
     <string name="off">Wyłączone</string>
     <string name="not_connected">Nie połączono</string>
+    <string name="scanning">Skanowanie...</string>
+    <string name="quick_scan">Rozpocznij szybkie skanowanie</string>
 
     <!-- Strings related to Settings -->
 

@@ -54,6 +54,8 @@
     <string name="no_available_nets">No available nets</string>
     <string name="off">Off</string>
     <string name="not_connected">Not connected</string>
+    <string name="scanning">Scanning...</string>
+    <string name="quick_scan">Start quick scan</string>
 
     <!-- Strings related to Settings -->
 
