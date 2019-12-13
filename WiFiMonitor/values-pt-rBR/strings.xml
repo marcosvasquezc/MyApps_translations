@@ -1,0 +1,111 @@
+<resources>
+
+    <string name="action_settings">Configurações</string>
+    <string name="action_about">Sobre</string>
+    <string name="action_info_center">Centro de informação</string>
+    <string name="action_find_mac_vendor">Fabricante por MAC</string>
+
+    <string name="nav_header_options">Opções</string>
+    <string name="action_rate_app">Avaliar App</string>
+    <string name="action_upgrade_to_pro">Atualizar para PRO</string>
+
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+
+    <string name="navigation_description">Lista de abas disponíveis</string>
+
+    <!-- Tabs -->
+    <string name="tab_general">Geral</string>
+    <string name="tab_net">Rede</string>
+    <string name="tab_net_info">Info</string>
+    <string name="tab_nets">Redes</string>
+    <string name="tab_net_devices">Dispositivos</string>
+    <string name="tab_net_graph">Banda 2.4</string>
+    <string name="tab_net_graph5">Banda 5.0</string>
+
+    <!-- Menu -->
+
+    <string name="enabled">Habilitado</string>
+    <string name="disabled">Desabilitado</string>
+
+    <!-- Net -->
+
+    <string name="link_speed">Velocidade do link</string>
+    <string name="frequency">Frequência</string>
+    <string name="signal">Sinal</string>
+    <string name="channel">Canal</string>
+    <string name="net_level">Nível</string>
+    <string name="support_5ghz">Banda 5 GHz</string>
+    <string name="support_wifi_direct">Wi-Fi Direct</string>
+
+    <string name="header_info">Info</string>
+    <string name="header_device">Dispositivo</string>
+    <string name="header_address">Endereço</string>
+
+    <string name="gateway">Gateway</string>
+    <string name="netmask">Máscara de Sub-Rede</string>
+    <string name="dns1">dns1</string>
+    <string name="dns2">dns2</string>
+    <string name="dhcp_server">Servidor DHCP</string>
+
+    <string name="enter_mac_addr">Por favor, digite o endereço MAC.</string>
+    <string name="no_result">Sem resultados</string>
+    <string name="find">Encontrar</string>
+    <string name="no_available_nets">Sem redes Wi-Fi disponíveis</string>
+    <string name="off">Desligado</string>
+    <string name="not_connected">Não conectado</string>
+    <string name="scanning">Escaneando...</string>
+    <string name="quick_scan">Iniciar scan rápido</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="title_activity_settings">Ajustes</string>
+
+    <string name="pref_category_general">Geral</string>
+    <string name="pref_category_appearance">Aparência</string>
+    <string name="pref_category_other">Outros</string>
+
+    <string name="pref_title_set_language">Idioma</string>
+
+    <string name="language_default">Padrão</string>
+
+    <string name="pref_title_dark_theme">Usar tema escuro</string>
+    <string name="pref_description_dark_theme">Aplicar tema escuro à interface</string>
+
+    <!-- Strings related to Message -->
+
+    <string name="message_title">Mensagem</string>
+
+    <!-- Defender -->
+    <string name="app_defender">App Defender</string>
+    <string name="app_defender_msg">Desculpe, mas o defender não é capaz de checar a validade do app.\nPor favor, conecte-se à internet e clique em recheck.</string>
+    <string name="app_recheck">Recheck</string>
+    <string name="app_exit">Sair</string>
+
+    <!-- PRO -->
+    <string name="using_theme_expired_non_pro">Desculpe, mas o tempo de uso grátis do tema expirou!\nEle se encontra disponível na versão PRO.</string>
+
+    <!-- Info center -->
+
+    <string name="create_report">Criar relatório</string>
+    <string name="create_report_msg">O relatório foi criado com sucesso!\nDê uma olhada</string>
+    <string name="create_report_err">Não foi possível criar relatório!</string>
+    <string name="create_report_err_non_pro">Não foi possível criar o relatório de erro.\nA função está disponível na versão PRO.</string>
+    <string name="create_report_info">Informações sobre Wi-Fi, redes, dispositivos será salva em um arquivo html na pasta de dados do aplicativo.</string>
+    <string name="create">Criar</string>
+
+    <string name="error">Erro</string>
+    <string name="close">Fechar</string>
+    <string name="open">Abrir</string>
+    <string name="share">Compartilhar</string>
+    <string name="send_to_email">Enviar por email:</string>
+
+   <!-- Strings related to About -->
+
+    <string name="about_version">versão</string>
+
+    <string name="about_author">autor\n
+        Andrey Efremov\n
+        aka andr7e</string>
+
+</resources>
