@@ -4,15 +4,11 @@
     <string name="action_about">O programie</string>
     <string name="action_info_center">Centrum informacji</string>
     <string name="action_find_mac_vendor">Znajdź po adresie MAC</string>
+    <string name="action_ping_enter_info">Enter IP address or hostname</string>
 
     <string name="nav_header_options">Opcje</string>
     <string name="action_rate_app">Oceń aplikacje</string>
     <string name="action_upgrade_to_pro">Zaktualizuj do wersji PRO</string>
-
-    <string name="navigation_drawer_open">Otwórz panel nawigacyjny</string>
-    <string name="navigation_drawer_close">Zamknij panel nawigacyjny</string>
-
-    <string name="navigation_description">Lista dostępnych kart</string>
 
     <!-- Tabs -->
     <string name="tab_general">Ogólne</string>
@@ -20,8 +16,11 @@
     <string name="tab_net_info">Info</string>
     <string name="tab_nets">Sieci Wi-Fi</string>
     <string name="tab_net_devices">Urządzenia</string>
+    <string name="tab_p2p_devices">Urządzenia P2P</string>
     <string name="tab_net_graph">CH 2.4</string>
     <string name="tab_net_graph5">CH 5.0</string>
+    <string name="tab_net_graph6">CH 6.0</string>
+    <string name="tab_net_power">Power</string>
 
     <!-- Menu -->
 
@@ -32,30 +31,77 @@
 
     <string name="link_speed">Prędkość</string>
     <string name="frequency">Częstotliwość</string>
+    <string name="center_frequency">Center frequency</string>
     <string name="channel">Kanał</string>
+    <string name="channel_width">Width</string>
+    <string name="vendor">Vendor</string>
+    <string name="security">Security</string>
+    <string name="standard">Standard</string>
     <string name="signal">Sygnał</string>
     <string name="net_level">Poziom</string>
+    <string name="band">Zasięg:</string>
     <string name="support_5ghz">Wsparcie 5 GHz</string>
+    <string name="support_6ghz">Wsparcie 6 GHz</string>
+    <string name="connection">Connection</string>
     <string name="support_wifi_direct">Wi-Fi Direct</string>
+    <string name="status">Status</string>
 
     <string name="header_info">Info</string>
     <string name="header_device">Uządzenie</string>
     <string name="header_address">Adres</string>
+    <string name="header_alias">Alias</string>
+
+    <string name="model_name">Model</string>
+    <string name="device_name">Device</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="number">Number</string>
 
     <string name="gateway">Bramka</string>
     <string name="netmask">Maska sieci</string>
     <string name="dns1">dns1</string>
     <string name="dns2">dns2</string>
-    <string name="dhcp_server">Serwer DHCP</string>
+    <string name="dhcp_server">Serwer</string>
 
     <string name="enter_mac_addr">Proszę podać adres MAC.</string>
     <string name="no_result">Brak rezultatów</string>
     <string name="find">Znaleziono</string>
     <string name="no_available_nets">Brak dostępnych sieci</string>
+    <string name="nets_access_denied">Denied access to nets</string>
+    <string name="nets_access_turn_gps">Perhaps for you device need turn on location.</string>
     <string name="off">Wyłączone</string>
     <string name="not_connected">Nie połączono</string>
     <string name="scanning">Skanowanie...</string>
-    <string name="quick_scan">Rozpocznij szybkie skanowanie</string>
+    <string name="quick_scan">Rozpocznij skanowanie</string>
+
+    <string name="action_scan">SCAN</string>
+    <string name="action_deep_scan">DEEP SCAN</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_scan_devices">SCAN DEVICES</string>
+
+    <string name="details">Details</string>
+    <string name="ping">PING</string>
+    <string name="service_path">Service</string>
+    <string name="alias_set">Set</string>
+
+    <string name="country">Country</string>
+    <string name="channels">Channels</string>
+    <string name="load">Load</string>
+    <string name="streams">Streams</string>
+    <string name="extensions">Extensions</string>
+
+    <!-- p2p -->
+    <string name="no_devices_found">No devices found</string>
+    <string name="p2p_help">Search peer to peer devices like TV, printers</string>
+
+    <!-- Services -->
+    <string name="services">Services</string>
+    <string name="no_services_found">No services found</string>
+    <string name="wifi_services_help">Search services in network</string>
+    <string name="wifi_devices_by_services_help">Search services and devices in network</string>
+
+    <!-- Ports -->
+    <string name="action_ports">PORTS</string>
+    <string name="action_opened">Opened</string>
 
     <!-- Strings related to Settings -->
 
@@ -72,9 +118,21 @@
     <string name="pref_title_dark_theme">Użyj ciemnego motywu</string>
     <string name="pref_description_dark_theme">Zastosuj ciemny motyw do interfejsu</string>
 
+    <string name="pref_title_use_colored_labels">Name of nets (color)</string>
+    <string name="pref_description_use_colored_labels">Highlight network names with color on the chart</string>
+
+    <string name="pref_title_theme">Motyw interfejsu</string>
+    <string name="pref_text_scale">Text scaling</string>
+
     <!-- Strings related to Message -->
 
     <string name="message_title">Wiadomość</string>
+    <string name="cancel">Cancel</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="choose_services">Choose services</string>
+    <string name="scanning_settings">Scanning settings</string>
+    <string name="set_scanning_timeout">Set scanning timeout for each host (ms)</string>
 
     <!-- Defender -->
     <string name="app_defender">App Defender</string>
@@ -83,7 +141,17 @@
     <string name="app_exit">Wyjdź</string>
 
     <!-- PRO -->
-    <string name="using_theme_expired_non_pro">Przepraszamy, ale darmowy motyw wygasł!\nJest dostępny w wersji PRO.</string>
+    <string name="using_theme_start_non_pro">You can use black theme 14 days. After that use dark theme or upgrade to PRO.</string>
+    <string name="using_theme_expired_non_pro">Przepraszamy, ale darmowy czarny motyw wygasł!\nJest dostępny w wersji PRO.</string>
+
+    <string name="pro_version_info">
+Features:\n
+ • Full theme support\n
+ • Create report and send by email\n
+ • Copy text by long press in info lists\n
+ • Extra info about net for android 11+\n
+ • Early access to new version
+</string>
 
    <!-- Info center -->
 
@@ -91,14 +159,33 @@
     <string name="create_report_msg">Raport utworzony z powodzeniem!\nZobacz</string>
     <string name="create_report_err">Nie można utworzyć raportu!</string>
     <string name="create_report_err_non_pro">Nie można utworzyć raportu!\nFunkcja dostępna w wersji PRO.</string>
-    <string name="create_report_info">Informacje o Wi-Fi, sieciach, urządzeniach zostaną zapisane w pliku HTML w folderze danych aplikacji.</string>
+    <string name="create_report_info">Informacje o Wi-Fi, sieciach, urządzeniach zostaną zapisane w pliku HTML/PDF w folderze danych aplikacji.</string>
     <string name="create">Utwórz</string>
+    <string name="reports">Reports</string>
 
     <string name="error">Błąd</string>
     <string name="close">Zamknij</string>
     <string name="open">Otwórz</string>
     <string name="share">Udostępnij</string>
     <string name="send_to_email">Wyślij przez email:</string>
+
+    <!-- Corporate mode -->
+
+    <string name="pref_corporate_mode">Corporate mode</string>
+    <string name="pref_title_use_corporate_mode">Use corporate mode</string>
+    <string name="pref_title_default_tab_nets">Default tab nets</string>
+    <string name="pref_title_my_networks">My networks</string>
+
+    <string name="all">All</string>
+    <string name="my">My</string>
+    <string name="not_my">Not my</string>
+
+    <string name="remove_my_net_message">Do you want remove network \'%1s\' from list?</string>
+
+
+    <!-- Clipboard -->
+
+    <string name="copied_to_clipboard">Copied to clipboard:</string>
 
    <!-- Strings related to About -->
 

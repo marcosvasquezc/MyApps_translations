@@ -6,15 +6,14 @@
     <string name="action_about">About</string>
     <string name="action_info_center">Info сenter</string>
     <string name="action_find_mac_vendor">Find vendor by MAC</string>
+    <string name="action_ping_enter_info">Enter IP address or hostname</string>
 
     <string name="nav_header_options">Options</string>
     <string name="action_rate_app">Rate App</string>
     <string name="action_upgrade_to_pro">Upgrade to PRO</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="navigation_description">List of available tabs</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
 
     <!-- Tabs -->
     <string name="tab_general">General</string>
@@ -22,8 +21,11 @@
     <string name="tab_net_info">Info</string>
     <string name="tab_nets">Nets</string>
     <string name="tab_net_devices">Devices</string>
+    <string name="tab_p2p_devices">Devices P2P</string>
     <string name="tab_net_graph">CH 2.4</string>
     <string name="tab_net_graph5">CH 5.0</string>
+    <string name="tab_net_graph6">CH 6.0</string>
+    <string name="tab_net_power">Power</string>
 
     <!-- Menu -->
     <string name="wifi" translatable="false">Wi-Fi</string>
@@ -42,30 +44,86 @@
     <string name="mac_address" translatable="false">MAC</string>
     <string name="mac_address_router" translatable="false">MAC (Router)</string>
     <string name="frequency">Frequency</string>
+    <string name="center_frequency">Center frequency</string>
     <string name="signal">Signal</string>
     <string name="channel">Channel</string>
+    <string name="channel_width">Width</string>
+    <string name="vendor">Vendor</string>
+    <string name="security">Security</string>
+    <string name="standard">Standard</string>
     <string name="net_level">Level</string>
+    <string name="band">Band:</string>
     <string name="support_5ghz">Band 5 GHz</string>
+    <string name="support_6ghz">Band 6 GHz</string>
+    <string name="connection">Connection</string>
     <string name="support_wifi_direct">Wi-Fi Direct</string>
+    <string name="status">Status</string>
+    <string name="support_wpa3"  translatable="false">WPA3</string>
+    <string name="mc_respond" translatable="false">is80211mc</string>
 
     <string name="header_info">Info</string>
+    <string name="header_dhcp" translatable="false">DHCP</string>
     <string name="header_device">Device</string>
     <string name="header_address">Address</string>
+    <string name="header_alias">Alias</string>
+
+    <string name="header_feature_info" translatable="false">Wi-Fi</string>
+
+    <string name="upnp_header_info"  translatable="false">UPnP</string>
+    <string name="upnp_url" translatable="false">URL</string>
+
+    <string name="model_name">Model</string>
+    <string name="device_name">Device</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="number">Number</string>
 
     <string name="gateway">Gateway</string>
     <string name="netmask">Netmask</string>
     <string name="dns1">dns1</string>
     <string name="dns2">dns2</string>
-    <string name="dhcp_server">DHCP server</string>
+    <string name="dhcp_server">Server</string>
 
     <string name="enter_mac_addr">Please, enter the MAC address.</string>
     <string name="no_result">No results</string>
     <string name="find">Find</string>
     <string name="no_available_nets">No available nets</string>
+    <string name="nets_access_denied">Denied access to nets</string>
+    <string name="nets_access_turn_gps">Perhaps for you device need turn on location.</string>
     <string name="off">Off</string>
     <string name="not_connected">Not connected</string>
     <string name="scanning">Scanning...</string>
-    <string name="quick_scan">Start quick scan</string>
+    <string name="quick_scan">Start scan</string>
+
+    <string name="action_scan">SCAN</string>
+    <string name="action_deep_scan">DEEP SCAN</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_scan_devices">SCAN DEVICES</string>
+
+    <string name="details">Details</string>
+
+    <string name="ping">PING</string>
+    <string name="service_path">Service</string>
+    <string name="alias_set">Set</string>
+
+    <string name="country">Country</string>
+    <string name="channels">Channels</string>
+    <string name="load">Load</string>
+    <string name="streams">Streams</string>
+    <string name="extensions">Extensions</string>
+
+    <!-- p2p -->
+    <string name="no_devices_found">No devices found</string>
+    <string name="p2p_help">Search peer to peer devices like TV, printers</string>
+
+    <!-- Services -->
+    <string name="services">Services</string>
+    <string name="no_services_found">No services found</string>
+    <string name="wifi_services_help">Search services in network</string>
+    <string name="wifi_devices_by_services_help">Search services and devices in network</string>
+
+    <!-- Ports -->
+    <string name="action_ports">PORTS</string>
+    <string name="action_opened">Opened</string>
 
     <!-- Strings related to Settings -->
 
@@ -101,11 +159,24 @@
     <string name="pref_title_dark_theme">Use dark theme</string>
     <string name="pref_description_dark_theme">Apply dark theme to interface</string>
 
+    <string name="pref_title_use_colored_labels">Name of nets (color)</string>
+    <string name="pref_description_use_colored_labels">Highlight network names with color on the chart</string>
+
+    <string name="pref_title_theme">Interface theme</string>
+
+    <string name="pref_text_scale">Text scaling</string>
+
     <!-- Strings related to Message -->
 
     <string name="ok" translatable="false">OK</string>
 
     <string name="message_title">Message</string>
+    <string name="cancel">Cancel</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="choose_services">Choose services</string>
+    <string name="scanning_settings">Scanning settings</string>
+    <string name="set_scanning_timeout">Set scanning timeout for each host (ms)</string>
 
     <!-- Defender -->
     <string name="app_defender">App Defender</string>
@@ -114,7 +185,19 @@
     <string name="app_exit">Exit</string>
 
     <!-- PRO -->
-    <string name="using_theme_expired_non_pro">Sorry, but free using theme expired!\nIt\'s available in PRO version.</string>
+    <string name="using_theme_start_non_pro">You can use black theme 14 days. After that use dark theme or upgrade to PRO.</string>
+    <string name="using_theme_expired_non_pro">Sorry, but free using black theme expired!\nIt\'s available in PRO version.</string>
+
+    <string name="pro_version_label" translatable="false">PRO</string>
+
+    <string name="pro_version_info">
+Features:\n
+ • Full theme support\n
+ • Create report and send by email\n
+ • Copy text by long press in info lists\n
+ • Extra info about net for android 11+\n
+ • Early access to new version
+</string>
 
     <!-- Info center -->
 
@@ -122,14 +205,35 @@
     <string name="create_report_msg">Report successfully created!\nLook in</string>
     <string name="create_report_err">Can\'t create report!</string>
     <string name="create_report_err_non_pro">Can not create report!\nIt\'s available in PRO version.</string>
-    <string name="create_report_info">Information about Wi-Fi, nets, devices will be saved in html file in app data folder.</string>
+    <string name="create_report_info">Information about Wi-Fi, nets, devices will be saved to file.</string>
     <string name="create">Create</string>
+    <string name="reports">Reports</string>
 
     <string name="error">Error</string>
     <string name="close">Close</string>
     <string name="open">Open</string>
     <string name="share">Share</string>
     <string name="send_to_email">Send to email:</string>
+
+    <string name="translation_label" translatable="false">Translation</string>
+    <string name="translation_info" translatable="false">If you would like to help add or update a translation for your language:</string>
+
+    <!-- Corporate mode -->
+
+    <string name="pref_corporate_mode">Corporate mode</string>
+    <string name="pref_title_use_corporate_mode">Use corporate mode</string>
+    <string name="pref_title_default_tab_nets">Default tab nets</string>
+    <string name="pref_title_my_networks">My networks</string>
+
+    <string name="all">All</string>
+    <string name="my">My</string>
+    <string name="not_my">Not my</string>
+
+    <string name="remove_my_net_message">Do you want remove network \'%1s\' from list?</string>
+
+    <!-- Clipboard -->
+
+    <string name="copied_to_clipboard">Copied to clipboard:</string>
 
    <!-- Strings related to About -->
 
@@ -139,6 +243,6 @@
         Andrey Efremov\n
         aka andr7e</string>
 
-    <string name="about_bottom" translatable="false">(c) 2018 - 2019</string>
+    <string name="about_bottom" translatable="false">(c) 2018 - %1d</string>
 
 </resources>

@@ -4,15 +4,11 @@
     <string name="action_about">О программе</string>
     <string name="action_info_center">Инфо-центр</string>
     <string name="action_find_mac_vendor">Поиск вендора по MAC</string>
+    <string name="action_ping_enter_info">Введите IP-адрес или имя хоста</string>
 
     <string name="nav_header_options">Опции</string>
     <string name="action_rate_app">Поставить оценку</string>
     <string name="action_upgrade_to_pro">Перейти на PRO</string>
-
-    <string name="navigation_drawer_open">Открыть панель навигации</string>
-    <string name="navigation_drawer_close">Закрыть панель навигации</string>
-
-    <string name="navigation_description">Список доступных вкладок</string>
 
     <!-- Tabs -->
     <string name="tab_general">Общее</string>
@@ -20,8 +16,11 @@
     <string name="tab_net_info">Инфо</string>
     <string name="tab_nets">Сети</string>
     <string name="tab_net_devices">Устройства</string>
+    <string name="tab_p2p_devices">Устройства P2P</string>
     <string name="tab_net_graph">CH 2.4</string>
     <string name="tab_net_graph5">CH 5.0</string>
+    <string name="tab_net_graph6">CH 6.0</string>
+    <string name="tab_net_power">Мощность</string>
 
     <!-- Menu -->
 
@@ -32,30 +31,77 @@
 
     <string name="link_speed">Скорость</string>
     <string name="frequency">Частота</string>
+    <string name="center_frequency">Центральная частота</string>
     <string name="signal">Сигнал</string>
     <string name="channel">Канал</string>
+    <string name="channel_width">Ширина</string>
+    <string name="vendor">Вендор</string>
+    <string name="security">Безопасность</string>
+    <string name="standard">Стандарт</string>
     <string name="net_level">Уровень</string>
+    <string name="band">Диапазон:</string>
     <string name="support_5ghz">Диапазон 5 GHz</string>
+    <string name="support_6ghz">Диапазон 6 GHz</string>
+    <string name="connection">Подключение</string>
     <string name="support_wifi_direct">Wi-Fi Direct</string>
+    <string name="status">Статус</string>
 
     <string name="header_info">Информация</string>
     <string name="header_device">Устройство</string>
     <string name="header_address">Адрес</string>
+    <string name="header_alias">Название</string>
+
+    <string name="model_name">Модель</string>
+    <string name="device_name">Устройство</string>
+    <string name="manufacturer">Производитель</string>
+    <string name="number">Номер</string>
 
     <string name="gateway">Шлюз</string>
     <string name="netmask">Маска подсети</string>
     <string name="dns1">dns1</string>
     <string name="dns2">dns2</string>
-    <string name="dhcp_server">DHCP сервер</string>
+    <string name="dhcp_server">Сервер</string>
 
     <string name="enter_mac_addr">Введите MAC-адрес.</string>
     <string name="no_result">Ничего не найдено</string>
     <string name="find">Найти</string>
     <string name="no_available_nets">Сети не найдены</string>
+    <string name="nets_access_denied">Доступ к сетям запрещён</string>
+    <string name="nets_access_turn_gps">Возможно для вашего устройства нужно включить местоположение.</string>
     <string name="off">Выключен</string>
     <string name="not_connected">Не подключено</string>
     <string name="scanning">Сканирование...</string>
-    <string name="quick_scan">Начать быстрое сканирование</string>
+    <string name="quick_scan">Начать сканирование</string>
+
+    <string name="action_scan">ПОИСК</string>
+    <string name="action_deep_scan">ПОИСК В ПОДСЕТЯХ</string>
+    <string name="action_stop">СТОП</string>
+    <string name="action_scan_devices">ПОИСК УСТРОЙСТВ</string>
+
+    <string name="details">Подробности</string>
+    <string name="ping">PING</string>
+    <string name="service_path">Сервис</string>
+    <string name="alias_set">Задать</string>
+
+    <string name="country">Страна</string>
+    <string name="channels">Каналы</string>
+    <string name="load">Загрузка</string>
+    <string name="streams">Потоки</string>
+    <string name="extensions">Расширения</string>
+
+    <!-- p2p -->
+    <string name="no_devices_found">Устройства не найдены</string>
+    <string name="p2p_help">Поиск пиринговых устройств: ТВ, принтеры...</string>
+
+    <!-- Services -->
+    <string name="services">Сервисы</string>
+    <string name="no_services_found">Сервисы не найдены</string>
+    <string name="wifi_services_help">Поиск сервисов в сети</string>
+    <string name="wifi_devices_by_services_help">Поиск сервисов и устройств в сети</string>
+
+    <!-- Ports -->
+    <string name="action_ports">ПОРТЫ</string>
+    <string name="action_opened">Открытые</string>
 
     <!-- Strings related to Settings -->
 
@@ -72,9 +118,22 @@
     <string name="pref_title_dark_theme">Применить темную тему</string>
     <string name="pref_description_dark_theme">Применить темную тему для интерфейса</string>
 
+    <string name="pref_title_use_colored_labels">Названия сетей (цвет)</string>
+    <string name="pref_description_use_colored_labels">Подсвечивать названия сетей цветом на графике</string>
+
+    <string name="pref_title_theme">Тема интерфейса</string>
+
+    <string name="pref_text_scale">Масштабирование текста</string>
+
     <!-- Strings related to Message -->
 
     <string name="message_title">Сообщение</string>
+    <string name="cancel">Отмена</string>
+    <string name="copy">Копировать</string>
+    <string name="delete">Удалить</string>
+    <string name="choose_services">Выбрать сервисы</string>
+    <string name="scanning_settings">Настройки сканирования</string>
+    <string name="set_scanning_timeout">Тайм-аут сканирования для каждого хоста (мс)</string>
 
     <!-- Defender -->
     <string name="app_defender">App Defender</string>
@@ -83,7 +142,17 @@
     <string name="app_exit">Выйти</string>
 
     <!-- PRO -->
-    <string name="using_theme_expired_non_pro">Извините, но время использования темы истекло!\nУстановите PRO версию.</string>
+    <string name="using_theme_start_non_pro">Вы можете использовать черную тему 14 дней. После этого используйте темную тему или обновитесь до PRO.</string>
+    <string name="using_theme_expired_non_pro">Извините, но пробный период использования черной темы истек!\nВыбор тем доступен в PRO версии.</string>
+
+    <string name="pro_version_info">
+Возможности:\n
+• Полная поддержка тем\n
+• Создание отчета и отправка отчета по почте\n
+• Копирование инфы в списках по долгому нажатию\n
+• Расширенная инфа о сети для android 11+\n
+• Ранний доступ к новым версиям
+</string>
 
    <!-- Info center -->
 
@@ -93,12 +162,30 @@
     <string name="create_report_err_non_pro">Создание отчета доступно только в PRO версии.</string>
     <string name="create_report_info">Информация о wi-fi, сетях, устройствах будет сохранена в файл.</string>
     <string name="create">Создать</string>
+    <string name="reports">Отчеты</string>
 
     <string name="error">Ошибка</string>
     <string name="close">Закрыть</string>
     <string name="open">Открыть</string>
     <string name="share">Отправить</string>
     <string name="send_to_email">Отправить на почту:</string>
+
+    <!-- Corporate mode -->
+
+    <string name="pref_corporate_mode">Корпоративный режим</string>
+    <string name="pref_title_use_corporate_mode">Использовать корпоративный режим</string>
+    <string name="pref_title_default_tab_nets">Первая вкладка сети</string>
+    <string name="pref_title_my_networks">Мои сети</string>
+
+    <string name="all">Все</string>
+    <string name="my">Мои</string>
+    <string name="not_my">Не мои</string>
+
+    <string name="remove_my_net_message">Вы хотите удалить сеть \'%1s\' из списка?</string>
+
+    <!-- Clipboard -->
+
+    <string name="copied_to_clipboard">Скопирован текст:</string>
 
    <!-- Strings related to About -->
 
