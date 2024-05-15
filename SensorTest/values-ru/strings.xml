@@ -1,5 +1,6 @@
 <resources>
     <string name="action_settings">Настройки</string>
+    <string name="action_rate_app">Открыть описание</string>
     <string name="action_about">О программе</string>
     <string name="title_activity_light_sensor">Тест датчика освещенности</string>
     <string name="title_activity_proximity_sensor">Тест датчика приближения</string>
@@ -37,6 +38,7 @@
     <string name="resolution">Разрешение:</string>
     <string name="power">Мощность:</string>
     <string name="unit">Ед. измер:</string>
+    <string name="type">Тип:</string>
 
     <string name="unsupported">не поддерживается</string>
 
@@ -64,12 +66,29 @@
     <string name="pref_title_use_pressure_mm_hg">Ед. измер. давления</string>
     <string name="pref_description_use_pressure_mm_hg">Показывать в мм рт. ст.</string>
 
-    <string name="pref_title_use_new_copmpass">Работа компаса</string>
-    <string name="pref_description_use_new_copmpass">Использовать другой алгоритм работы</string>
+    <string name="pref_title_use_new_compass">Работа компаса</string>
+    <string name="pref_description_use_new_compass">Использовать другой алгоритм работы</string>
 
     <string name="pref_title_dark_theme">Применить темную тему</string>
     <string name="pref_description_dark_theme">Применить темную тему для интерфейса</string>
-    
+
+    <string name="pref_title_theme">Тема интерфейса</string>
+
+    <!-- Help -->
+
+    <string name="help_accelerometer">- Наклоните устройство, мяч должен двигаться в направлении наклона.\n- Положите устройство горизонтально,\nзначения должны быть:\nz = ~9.8 m/s^2, x = 0, y = 0</string>
+    <string name="help_proximity">Накройте датчик, лампочка должна погаснуть.</string>
+    <string name="help_light">Поднесите устройство к источнику света, значения показаний увеличатся.\nТипичные значения:\n- В комнате 150 лк\n- В офисе 350 лк\n- Солнечный день 10.000 лк</string>
+    <string name="help_magnetometer">Поднесите устройство к металлу или магниту, значения показаний увеличатся.</string>
+    <string name="help_gyroscope">- Вращайте устройство вокруг осей x, y, z.\n- Держите устройство горизонтально или вертикально и поверните для прехода из книжной в альбомную ориентацию, значение z должно увеличиться.</string>
+    <string name="help_pressure">Нормальное атмосферное давление:\n100 кПа = 1000 мбар ~ 750 мм рт. ст</string>
+
+    <string name="help_sensor_not_installed">Ваше устройство не имеет этого датчика, или у вас есть ошибка взаимодействия сервиса датчиков в прошивке устройства</string>
+    <string name="help_sensor_no_data">Этот датчик не сообщает никаких показаний, похоже у вас есть ошибка взаимодействия сервиса датчиков в прошивке устройства</string>
+
+    <string name="no_sensor_what">Ваше устройство не имеет физических датчиков, или у вас есть ошибка взаимодействия сервиса датчиков в прошивке устройства. Чтобы исправить это, попробуйте:</string>
+    <string name="no_sensor_do">- Перезагрузить устройство\n- Сбросить настройки датчиков</string>
+
     <!-- Strings related to About -->
 
     <string name="about_version">версия</string>

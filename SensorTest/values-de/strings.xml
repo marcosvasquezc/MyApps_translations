@@ -1,5 +1,6 @@
 <resources>
     <string name="action_settings">Einstellungen</string>
+    <string name="action_rate_app">Open description</string>
     <string name="action_about">Über</string>
     <string name="title_activity_light_sensor">Lichtsensor Test</string>
     <string name="title_activity_proximity_sensor" >Näherungssensor Test</string>
@@ -37,6 +38,7 @@
     <string name="resolution">Auflösung:</string>
     <string name="power">Leistung:</string>
     <string name="unit">Einheit:</string>
+    <string name="type">Type:</string>
 
     <string name="unsupported">nicht unterstützt</string>
 
@@ -64,12 +66,29 @@
     <string name="pref_title_use_pressure_mm_hg">Druckeinheit</string>
     <string name="pref_description_use_pressure_mm_hg">Druck in mm Hg</string>
 
-    <string name="pref_title_use_new_copmpass">Kompass-Methode</string>
-    <string name="pref_description_use_new_copmpass">Zweite Methode für Kompass verwenden</string>
+    <string name="pref_title_use_new_compass">Kompass-Methode</string>
+    <string name="pref_description_use_new_compass">Zweite Methode für Kompass verwenden</string>
 
     <string name="pref_title_dark_theme">Dunkles Theme verwenden</string>
     <string name="pref_description_dark_theme">Färbt das Interface dunkel</string>
-    
+
+    <string name="pref_title_theme">Schnittstellenthema</string>
+
+    <!-- Help -->
+
+    <string name="help_accelerometer">- Tilt the device, the ball should follow.\n- Put device horizontally, values should be:\nz = ~9.8 m/s^2, x = 0, y = 0</string>
+    <string name="help_proximity">Cover sensor and lamp should turn off.</string>
+    <string name="help_light">Move device to light source, the readings will increase.\nTypical values:\n- In room 150 lx\n- In office 350 lx\n- Sunny day 10.000 lx</string>
+    <string name="help_magnetometer">Bring device close to metal or magnet, the readings will increase.</string>
+    <string name="help_gyroscope">- Rotate device around the axis x, y, z.\n- If you put device horizontally or vertically and turn from portrait to landscape, z value should be increase.</string>
+    <string name="help_pressure">Normal atmospheric pressure:\n100 kPa = 1000 mbar ~ 750 mm Hg</string>
+
+    <string name="help_sensor_not_installed">Your device doesn\'t have this sensor or you have error with sensor service in device firmware</string>
+    <string name="help_sensor_no_data">This sensor doesn\'t report any readings, seems you have error with sensor service in device firmware</string>
+
+    <string name="no_sensor_what">Your device doesn\'t have physical sensors or you have error with sensor service in device firmware. Try to fix it:</string>
+    <string name="no_sensor_do">- Reboot device\n- Reset sensors settings</string>
+
     <!-- Strings related to About -->
 
     <string name="about_version">Version</string>
