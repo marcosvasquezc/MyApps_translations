@@ -1,0 +1,103 @@
+<resources>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_rate_app">Open description</string>
+    <string name="action_about">Info app</string>
+    <string name="title_activity_light_sensor">Test sensore luce</string>
+    <string name="title_activity_proximity_sensor">Test sensore prossimità</string>
+    <string name="title_activity_accelerometer_sensor">Test accelerometro</string>
+    <string name="title_activity_magnetometer_sensor">Test magnetometro</string>
+    <string name="title_activity_gyroscope_sensor">Test giroscopio</string>
+    <string name="title_activity_pressure_sensor">Test barometro</string>
+    <string name="title_activity_compass_sensor">Test bussola</string>
+
+    <string name="test">TEST</string>
+    <string name="info">INFO</string>
+
+
+    <string name="accelerometer">Accelerometro</string>
+    <string name="magnetometer">Magnetometro</string>
+    <string name="compass">Bussola</string>
+    <string name="gyroscope">Giroscopio</string>
+    <string name="proximity">Prossimità</string>
+    <string name="light">Lucet</string>
+    <string name="pressure">Barometro</string>
+
+    <string name="no_input_data">No data from sensor</string>
+
+    <string name="unit_accelerometer">m/s²</string>
+    <string name="unit_light">lx</string>
+    <string name="unit_proximity">cm</string>
+    <string name="unit_magnetometer">μT</string>
+    <string name="unit_gyroscope">rad/s</string>
+    <string name="unit_pressure">mbar</string>
+    <string name="unit_pressure_mm">mm Hg</string>
+
+    <string name="name">Nome:</string>
+    <string name="vendor">Produttore:</string>
+    <string name="version">Versione:</string>
+    <string name="max_range">Intervallo max:</string>
+    <string name="resolution">Risoluzione:</string>
+    <string name="power">Alimentazione:</string>
+    <string name="unit">Unità:</string>
+    <string name="type">Type:</string>
+
+    <string name="unsupported">non supportato</string>
+
+    <string name="total_sensors">Totale:</string>
+
+    <string name="n">N</string>
+    <string name="ne">NE</string>
+    <string name="e">E</string>
+    <string name="se">SE</string>
+    <string name="s">S</string>
+    <string name="sw">SO</string>
+    <string name="w">O</string>
+    <string name="nw">NO</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="title_activity_settings">Impostazioni</string>
+
+    <string name="pref_category_appearance">Interfaccia</string>
+    
+    <string name="pref_title_set_language">Lingua</string>
+
+    <string name="language_default">Predefinita</string>
+
+    <string name="pref_title_use_pressure_mm_hg">Unità pressione</string>
+    <string name="pref_description_use_pressure_mm_hg">Usa pressione in mm Hg</string>
+
+    <string name="pref_title_use_new_compass">Compass method</string>
+    <string name="pref_description_use_new_compass">Use second method for compass</string>
+
+    <string name="pref_title_dark_theme">Usa tema scuro</string>
+    <string name="pref_description_dark_theme">Applica tema scuro all\'interfaccia</string>
+
+    <string name="pref_title_theme">Interface theme</string>
+
+    <!-- Help -->
+
+    <string name="help_accelerometer">- Tilt the device, the ball should follow.\n- Put device horizontally, values should be:\nz = ~9.8 m/s^2, x = 0, y = 0</string>
+    <string name="help_proximity">Cover sensor and lamp should turn off.</string>
+    <string name="help_light">Move device to light source, the readings will increase.\nTypical values:\n- In room 150 lx\n- In office 350 lx\n- Sunny day 10.000 lx</string>
+    <string name="help_magnetometer">Bring device close to metal or magnet, the readings will increase.</string>
+    <string name="help_gyroscope">- Rotate device around the axis x, y, z.\n- If you put device horizontally or vertically and turn from portrait to landscape, z value should be increase.</string>
+    <string name="help_pressure">Normal atmospheric pressure:\n100 kPa = 1000 mbar ~ 750 mm Hg</string>
+
+    <string name="help_sensor_not_installed">Your device doesn\'t have this sensor or you have error with sensor service in device firmware</string>
+    <string name="help_sensor_no_data">This sensor doesn\'t report any readings, seems you have error with sensor service in device firmware</string>
+
+    <string name="no_sensor_what">Your device doesn\'t have physical sensors or you have error with sensor service in device firmware. Try to fix it:</string>
+    <string name="no_sensor_do">- Reboot device\n- Reset sensors settings</string>
+
+    
+    <!-- Strings related to About -->
+
+    <string name="about_version">versione</string>
+
+    <string name="about_author">autore\n
+        Andrey Efremov\n
+        alias andr7e</string>
+
+
+</resources>

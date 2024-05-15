@@ -13,6 +13,7 @@
     <string name="test">ТЕСТ</string>
     <string name="info">ИНФО</string>
 
+
     <string name="accelerometer">Акселерометр</string>
     <string name="magnetometer">Магнитометр</string>
     <string name="compass">Компас</string>
@@ -58,7 +59,7 @@
     <string name="title_activity_settings">Настройки</string>
 
     <string name="pref_category_appearance">Вид</string>
-
+    
     <string name="pref_title_set_language">Язык</string>
 
     <string name="language_default">По умолчанию</string>
@@ -89,6 +90,7 @@
     <string name="no_sensor_what">Ваше устройство не имеет физических датчиков, или у вас есть ошибка взаимодействия сервиса датчиков в прошивке устройства. Чтобы исправить это, попробуйте:</string>
     <string name="no_sensor_do">- Перезагрузить устройство\n- Сбросить настройки датчиков</string>
 
+    
     <!-- Strings related to About -->
 
     <string name="about_version">версия</string>
@@ -96,5 +98,6 @@
     <string name="about_author">автор\n
         Ефремов Андрей\n
         aka andr7e</string>
+
 
 </resources>
