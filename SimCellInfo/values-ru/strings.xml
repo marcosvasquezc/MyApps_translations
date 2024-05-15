@@ -1,6 +1,8 @@
 <resources>
     <string name="action_settings">Настройки</string>
+    <string name="action_copy_info">Копировать инфу</string>
     <string name="action_about">О программе</string>
+    <string name="action_cell_list">Список вышек</string>
 
     <!-- SIM -->
     <string name="sim_phone_type">Тип телефона</string>
@@ -15,11 +17,21 @@
     <string name="neighbor_cells">Соседние вышки</string>
     <string name="data_enabled">Передача данных</string>
 
+    <string name="other">Ещё</string>
+    <string name="supported">Поддерживается</string>
+    <string name="status">Статус</string>
+    <string name="available">доступно</string>
+    <string name="unavailable">недоступно</string>
+
     <string name="yes">Да</string>
     <string name="no">Нет</string>
 
     <string name="ready">Готово</string>
     <string name="not_ready">Не готово</string>
+
+    <string name="copy">Копировать</string>
+    <string name="play">Старт</string>
+    <string name="pause">Пауза</string>
 
     <!-- Strings related to Settings -->
 
@@ -27,13 +39,24 @@
 
     <string name="pref_category_general">Общее</string>
     <string name="pref_category_appearance">Вид</string>
+    <string name="pref_category_other">Еще</string>
 
     <string name="pref_title_dark_theme">Применить темную тему</string>
     <string name="pref_description_dark_theme">Применить темную тему для интерфейса</string>
 
+    <string name="pref_title_theme">Тема интерфейса</string>
+
     <string name="pref_title_set_language">Язык</string>
 
     <string name="language_default">По умолчанию</string>
+
+    <string name="show_tac_of_imei">Показывать TAC из IMEI</string>
+
+    <!-- Clipboard -->
+
+    <string name="copied_to_clipboard">Скопирован текст:</string>
+
+    <string name="clear">Очистить</string>
 
     <!-- Strings related to About -->
 
