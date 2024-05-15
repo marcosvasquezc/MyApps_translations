@@ -1,0 +1,200 @@
+<resources>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_about">Info app</string>
+    <string name="action_info_center">Centro info</string>
+    <string name="action_find_mac_vendor">Trova produttore in base a MAC</string>
+    <string name="action_ping_enter_info">Inserisci indirizzo IP o nome hos</string>
+
+    <string name="nav_header_options">Opzioni</string>
+    <string name="action_rate_app">Vota app</string>
+    <string name="action_upgrade_to_pro">Aggiorna a PRO</string>
+
+    <!-- Tabs -->
+    <string name="tab_general">Generale</string>
+    <string name="tab_net">Rete</string>
+    <string name="tab_net_info">Info</string>
+    <string name="tab_nets">Reti</string>
+    <string name="tab_net_devices">Dispositivi</string>
+    <string name="tab_p2p_devices">Dispositivi P2P</string>
+    <string name="tab_net_graph">CN 2.4</string>
+    <string name="tab_net_graph5">CN 5.0</string>
+    <string name="tab_net_graph6">CN 6.0</string>
+    <string name="tab_net_power">Alimentazione</string>
+
+    <!-- Menu -->
+
+    <string name="enabled">Abilitato</string>
+    <string name="disabled">Disabilitato</string>
+
+    <string name="google_play_link" translatable="false">https://play.google.com/store/apps/details?id=</string>
+
+    <!-- Net -->
+
+    <string name="link_speed">Velocità collegamento</string>
+    <string name="frequency">Frequenza</string>
+    <string name="center_frequency">Frequenza centrale</string>
+    <string name="signal">Segnale</string>
+    <string name="channel">Canale</string>
+    <string name="channel_width">Larghezza</string>
+    <string name="vendor">Produttore</string>
+    <string name="security">Sicurezza</string>
+    <string name="standard">Standard</string>
+    <string name="net_level">Livello</string>
+    <string name="band">Banda:</string>
+    <string name="support_5ghz">Banda 5 GHz</string>
+    <string name="support_6ghz">Banda 6 GHz</string>
+    <string name="connection">Connessione</string>
+    <string name="support_wifi_direct">Wi-Fi Direct</string>
+    <string name="status">Stato</string>
+
+    <string name="header_info">Info</string>
+    <string name="header_device">Dispositivo</string>
+    <string name="header_address">indirizzo</string>
+    <string name="header_alias">Alias</string>
+
+    <string name="model_name">Modello</string>
+    <string name="device_name">Dispositivo</string>
+    <string name="manufacturer">Produttore</string>
+    <string name="number">Numero</string>
+
+    <string name="gateway">Gateway</string>
+    <string name="netmask">Maschera sottorete</string>
+    <string name="dns1">dns1</string>
+    <string name="dns2">dns2</string>
+    <string name="dhcp_server">Server</string>
+
+    <string name="enter_mac_addr">Inserisci indirizzo MAC.</string>
+    <string name="no_result">Nessun risultato</string>
+    <string name="find">Trova</string>
+    <string name="no_available_nets">Nessuna rete disponibile</string>
+    <string name="nets_access_denied">Accesso negato alle reti</string>
+    <string name="nets_access_turn_gps">Forse per il dispositivo è necessario attivare la posizione.</string>
+    <string name="off">Off</string>
+    <string name="not_connected">Non connesso</string>
+    <string name="scanning">Scansione...</string>
+    <string name="quick_scan">Avvia scansione</string>
+
+    <string name="action_scan">SCANSIONA</string>
+    <string name="action_deep_scan">SCANSIONE PROFONDA</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_scan_devices">SCANSIOEN DISPOSTIVI</string>
+
+    <string name="details">Dettagli</string>
+
+    <string name="ping">PING</string>
+    <string name="service_path">Servizio</string>
+    <string name="alias_set">Imposta</string>
+
+    <string name="country">Nazione</string>
+    <string name="channels">Canali</string>
+    <string name="load">Carico</string>
+    <string name="streams">Stream</string>
+    <string name="extensions">Estensioni</string>
+
+    <!-- p2p -->
+    <string name="no_devices_found">Nessun dispositivo trovato</string>
+    <string name="p2p_help">Cerca dispositivi peer to peer come TV, stampanti</string>
+
+    <!-- Services -->
+    <string name="services">Servizi</string>
+    <string name="no_services_found">Nessun servizio trovato</string>
+    <string name="wifi_services_help">Cerca servizi in rete</string>
+    <string name="wifi_devices_by_services_help">Cerca servizi e dispositivi in rete</string>
+
+    <!-- Ports -->
+    <string name="action_ports">PORTE</string>
+    <string name="action_opened">Aperte</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="title_activity_settings">Impostazioni</string>
+
+    <string name="pref_category_general">Generale</string>
+    <string name="pref_category_appearance">Interfaccia</string>
+    <string name="pref_category_other">Altro</string>
+
+    <string name="pref_title_set_language">Lingua</string>
+
+    <string name="language_default">Predefinita</string>
+
+    <string name="pref_title_dark_theme">Usa tema scuro</string>
+    <string name="pref_description_dark_theme">Applica tema scuro all\'interfaccia</string>
+
+    <string name="pref_title_use_colored_labels">Nome reti (colore)</string>
+    <string name="pref_description_use_colored_labels">Evidenzia i nomi delle reti con il colore nel grafico</string>
+
+    <string name="pref_title_theme">Tema interfaccia</string>
+
+    <string name="pref_text_scale">Ridimensionamento testo</string>
+
+    <!-- Strings related to Message -->
+
+    <string name="message_title">Messaggio</string>
+    <string name="cancel">Annulla</string>
+    <string name="copy">Copia</string>
+    <string name="delete">Elimina</string>
+    <string name="choose_services">Scegli servizi</string>
+    <string name="scanning_settings">Impostazioni scansione</string>
+    <string name="set_scanning_timeout">Imposta timeout scansione per ogni host(ms)</string>
+
+    <!-- Defender -->
+    <string name="app_defender">App Defender</string>
+    <string name="app_defender_msg">Ci spiace, ma Defender non può verificare la validità dell\'app.\nConnettiti ad internet e seleziona \'Ricontrolla\'.</string>
+    <string name="app_recheck">Ricontrolla</string>
+    <string name="app_exit">Esci</string>
+
+    <!-- PRO -->
+    <string name="using_theme_start_non_pro">Puoi usare il tema nero per 14 giorni.\nSuccessivamente usa il tema scuro o esegui l\'aggiornamento a PRO.</string>
+    <string name="using_theme_expired_non_pro">Il tema gratuito con tema nero è scaduto!\nÈ disponibile nella versione PRO.</string>
+
+    <string name="pro_version_info">
+Funzionalità:\n
+ • Supporto completo tema\n
+ • Crea rapporto e invialo via email\n
+ • Copia testo premendo a lungo sugli elenchi di info\n
+ • Info extra su reti per Android 11+\n
+ • Accesso anticipato alle nuovi versioni
+</string>
+
+    <!-- Info center -->
+
+    <string name="create_report">Crea rapporto</string>
+    <string name="create_report_msg">Creazione rapporto completata!\nGaurda in</string>
+    <string name="create_report_err">Impossibile creare il rapporto!</string>
+    <string name="create_report_err_non_pro">Impossibile creare il rapporto!\nÈ disponibile nella versione PRO.</string>
+    <string name="create_report_info">Le info su Wi-Fi, reti e dispositivi verranno salvate in un file.</string>
+    <string name="create">Crea</string>
+    <string name="reports">Rapporti</string>
+
+    <string name="error">Errore</string>
+    <string name="close">Chiudi</string>
+    <string name="open">Apri</string>
+    <string name="share">Condividi</string>
+    <string name="send_to_email">Invia via email:</string>
+
+    <!-- Corporate mode -->
+
+    <string name="pref_corporate_mode">Modalità aziendale</string>
+    <string name="pref_title_use_corporate_mode">Usa modalità aziendale</string>
+    <string name="pref_title_default_tab_nets">Schede reti predefinite</string>
+    <string name="pref_title_my_networks">Mie reti</string>
+
+    <string name="all">Tutte</string>
+    <string name="my">Mie</string>
+    <string name="not_my">Non mie</string>
+
+    <string name="remove_my_net_message">Vuoi rimuovere la rete \'%1s\' dall\'elenco?</string>
+
+    <!-- Clipboard -->
+
+    <string name="copied_to_clipboard">Copiato negli appunti:</string>
+
+   <!-- Strings related to About -->
+
+    <string name="about_version">versione</string>
+
+    <string name="about_author">autore\\n
+        Andrey Efremov\n
+        alias andr7e</string>
+
+</resources>
