@@ -19,14 +19,12 @@
     <string name="tab_net_graph">CN 2.4</string>
     <string name="tab_net_graph5">CN 5.0</string>
     <string name="tab_net_graph6">CN 6.0</string>
-    <string name="tab_net_power">Alimentazione</string>
+    <string name="tab_net_power">Potenza</string>
 
     <!-- Menu -->
 
     <string name="enabled">Abilitato</string>
     <string name="disabled">Disabilitato</string>
-
-    <string name="google_play_link" translatable="false">https://play.google.com/store/apps/details?id=</string>
 
     <!-- Net -->
 
@@ -49,7 +47,7 @@
 
     <string name="header_info">Info</string>
     <string name="header_device">Dispositivo</string>
-    <string name="header_address">indirizzo</string>
+    <string name="header_address">Indirizzo</string>
     <string name="header_alias">Alias</string>
 
     <string name="model_name">Modello</string>
@@ -59,8 +57,6 @@
 
     <string name="gateway">Gateway</string>
     <string name="netmask">Maschera sottorete</string>
-    <string name="dns1">dns1</string>
-    <string name="dns2">dns2</string>
     <string name="dhcp_server">Server</string>
 
     <string name="enter_mac_addr">Inserisci indirizzo MAC.</string>
@@ -90,6 +86,7 @@
     <string name="load">Carico</string>
     <string name="streams">Stream</string>
     <string name="extensions">Estensioni</string>
+    <string name="discovery_mac_blocked_info">Receiving a list of connected devices is blocked.\nWill be used test method without MAC addresses.</string>
 
     <!-- p2p -->
     <string name="no_devices_found">Nessun dispositivo trovato</string>
@@ -135,7 +132,7 @@
     <string name="delete">Elimina</string>
     <string name="choose_services">Scegli servizi</string>
     <string name="scanning_settings">Impostazioni scansione</string>
-    <string name="set_scanning_timeout">Imposta timeout scansione per ogni host(ms)</string>
+    <string name="set_scanning_timeout">Timeout scansione per ogni host (ms)</string>
 
     <!-- Defender -->
     <string name="app_defender">App Defender</string>
@@ -193,7 +190,7 @@ Funzionalità:\n
 
     <string name="about_version">versione</string>
 
-    <string name="about_author">autore\\n
+    <string name="about_author">autore\n
         Andrey Efremov\n
         alias andr7e</string>
 

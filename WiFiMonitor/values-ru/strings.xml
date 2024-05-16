@@ -58,8 +58,6 @@
 
     <string name="gateway">Шлюз</string>
     <string name="netmask">Маска подсети</string>
-    <string name="dns1">dns1</string>
-    <string name="dns2">dns2</string>
     <string name="dhcp_server">Сервер</string>
 
     <string name="enter_mac_addr">Введите MAC-адрес.</string>
@@ -88,6 +86,7 @@
     <string name="load">Загрузка</string>
     <string name="streams">Потоки</string>
     <string name="extensions">Расширения</string>
+    <string name="discovery_mac_blocked_info">Получение списка подключенных устройств заблокировано.\nБудет использован тестовый метод без MAC-адресов.</string>
 
     <!-- p2p -->
     <string name="no_devices_found">Устройства не найдены</string>

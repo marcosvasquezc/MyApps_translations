@@ -79,8 +79,8 @@
 
     <string name="gateway">Gateway</string>
     <string name="netmask">Netmask</string>
-    <string name="dns1">dns1</string>
-    <string name="dns2">dns2</string>
+    <string name="dns1" translatable="false">DNS 1</string>
+    <string name="dns2" translatable="false">DNS 2</string>
     <string name="dhcp_server">Server</string>
 
     <string name="enter_mac_addr">Please, enter the MAC address.</string>
@@ -110,6 +110,8 @@
     <string name="load">Load</string>
     <string name="streams">Streams</string>
     <string name="extensions">Extensions</string>
+
+    <string name="discovery_mac_blocked_info">Receiving a list of connected devices is blocked.\nWill be used test method without MAC addresses.</string>
 
     <!-- p2p -->
     <string name="no_devices_found">No devices found</string>
