@@ -1,9 +1,9 @@
 <resources>
 
     <string name="action_settings">Impostazioni</string>
-    <string name="action_copy_info">Copy info</string>
+    <string name="action_copy_info">Copia info</string>
     <string name="action_about">Info app</string>
-    <string name="action_cell_list">Cell list</string>
+    <string name="action_cell_list">Elenco celle</string>
 
     <!-- SIM -->
     <string name="sim_phone_type">Tipo telefono</string>
@@ -18,11 +18,11 @@
     <string name="neighbor_cells">Celle vicine</string>
     <string name="data_enabled">Dati abilitati</string>
 
-    <string name="other">Other</string>
-    <string name="supported">Supported</string>
-    <string name="status">Status</string>
-    <string name="available">available</string>
-    <string name="unavailable">unavailable</string>
+    <string name="other">Altro</string>
+    <string name="supported">Supportato</string>
+    <string name="status">Stato</string>
+    <string name="available">disponibile</string>
+    <string name="unavailable">non disponibile</string>
 
     <string name="yes">Sì</string>
     <string name="no">No</string>
@@ -30,9 +30,9 @@
     <string name="ready">Pronto</string>
     <string name="not_ready">Non pronto</string>
 
-    <string name="copy">Copy</string>
-    <string name="play">Play</string>
-    <string name="pause">Pause</string>
+    <string name="copy">Copia</string>
+    <string name="play">Riproduci</string>
+    <string name="pause">Pausa</string>
 
     <!-- Strings related to Settings -->
 
@@ -40,25 +40,25 @@
 
     <string name="pref_category_general">Generale</string>
     <string name="pref_category_appearance">Interfaccia</string>
-    <string name="pref_category_other">Other</string>
+    <string name="pref_category_other">Altro</string>
 
     <string name="pref_title_dark_theme">Usa tema scuro</string>
     <string name="pref_description_dark_theme">Applica tema scuro all\'interfaccia</string>
 
-    <string name="pref_title_theme">Interface theme</string>
+    <string name="pref_title_theme">Tema interfaccia</string>
 
     <string name="pref_title_set_language">Lingua</string>
 
-    <string name="language_default">Default</string>
+    <string name="language_default">Predefinita</string>
 
-    <string name="show_tac_of_imei">Show TAC of IMEI</string>
+    <string name="show_tac_of_imei">Visualizza TAC IMEI</string>
 
 
     <!-- Clipboard -->
 
-    <string name="copied_to_clipboard">Copied to clipboard:</string>
+    <string name="copied_to_clipboard">Copiato negli appunti:</string>
 
-    <string name="clear">Clear</string>
+    <string name="clear">Azzera</string>
 
     <!-- Strings related to About -->
 

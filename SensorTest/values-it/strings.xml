@@ -1,6 +1,6 @@
 <resources>
     <string name="action_settings">Impostazioni</string>
-    <string name="action_rate_app">Open description</string>
+    <string name="action_rate_app">Apri descrizione</string>
     <string name="action_about">Info app</string>
     <string name="title_activity_light_sensor">Test sensore luce</string>
     <string name="title_activity_proximity_sensor">Test sensore prossimità</string>
@@ -19,10 +19,10 @@
     <string name="compass">Bussola</string>
     <string name="gyroscope">Giroscopio</string>
     <string name="proximity">Prossimità</string>
-    <string name="light">Lucet</string>
+    <string name="light">Luce</string>
     <string name="pressure">Barometro</string>
 
-    <string name="no_input_data">No data from sensor</string>
+    <string name="no_input_data">Nessun dato dal sensore</string>
 
     <string name="unit_accelerometer">m/s²</string>
     <string name="unit_light">lx</string>
@@ -39,7 +39,7 @@
     <string name="resolution">Risoluzione:</string>
     <string name="power">Alimentazione:</string>
     <string name="unit">Unità:</string>
-    <string name="type">Type:</string>
+    <string name="type">Tipo:</string>
 
     <string name="unsupported">non supportato</string>
 
@@ -67,28 +67,28 @@
     <string name="pref_title_use_pressure_mm_hg">Unità pressione</string>
     <string name="pref_description_use_pressure_mm_hg">Usa pressione in mm Hg</string>
 
-    <string name="pref_title_use_new_compass">Compass method</string>
-    <string name="pref_description_use_new_compass">Use second method for compass</string>
+    <string name="pref_title_use_new_compass">Metodo bussola</string>
+    <string name="pref_description_use_new_compass">Usa secondo metodo bussola</string>
 
     <string name="pref_title_dark_theme">Usa tema scuro</string>
     <string name="pref_description_dark_theme">Applica tema scuro all\'interfaccia</string>
 
-    <string name="pref_title_theme">Interface theme</string>
+    <string name="pref_title_theme">Tema interfaccia</string>
 
     <!-- Help -->
 
-    <string name="help_accelerometer">- Tilt the device, the ball should follow.\n- Put device horizontally, values should be:\nz = ~9.8 m/s^2, x = 0, y = 0</string>
-    <string name="help_proximity">Cover sensor and lamp should turn off.</string>
-    <string name="help_light">Move device to light source, the readings will increase.\nTypical values:\n- In room 150 lx\n- In office 350 lx\n- Sunny day 10.000 lx</string>
-    <string name="help_magnetometer">Bring device close to metal or magnet, the readings will increase.</string>
-    <string name="help_gyroscope">- Rotate device around the axis x, y, z.\n- If you put device horizontally or vertically and turn from portrait to landscape, z value should be increase.</string>
-    <string name="help_pressure">Normal atmospheric pressure:\n100 kPa = 1000 mbar ~ 750 mm Hg</string>
+    <string name="help_accelerometer">- Inclina il dispositivo, la palla dovrebbe seguirlo.\n- Metti il dispositivo in orizzontale, i valori dovrebbero essere:\nz = ~9.8 m/s^2, x = 0, y = 0</string>
+    <string name="help_proximity">Copri il sensore e la luce dovrebbe spegnersi.</string>
+    <string name="help_light">Sposta il dispositivo verso la fonte di luce, le letture aumenteranno.\nValori tipici:\n- In una stanza 150 lx\n- In ufficio 350 lx\n- Giornata soleggiata 10.000 lx</string>
+    <string name="help_magnetometer">Avvicina il dispositivo al metallo o al magnete, le letture aumenteranno.</string>
+    <string name="help_gyroscope">- Ruota il dispositivo attorno all'asse x, y, z.\n- Se metti il dispositivo in orizzontale o verticale e passi da verticale a orizzontale, il valore z dovrebbe aumentare.</string>
+    <string name="help_pressure">Pressione atmosferica normale:\n100 kPa = 1000 mbar ~ 750 mm Hg</string>
 
-    <string name="help_sensor_not_installed">Your device doesn\'t have this sensor or you have error with sensor service in device firmware</string>
-    <string name="help_sensor_no_data">This sensor doesn\'t report any readings, seems you have error with sensor service in device firmware</string>
+    <string name="help_sensor_not_installed">Il dispositivo non ha questo sensore o si è verificato un errore del servizio sensore nel firmware dispositivo</string>
+    <string name="help_sensor_no_data">Questo sensore non riporta alcuna lettura, sembra che ci sia un errore del servizio sensore nel firmware dispositivo</string>
 
-    <string name="no_sensor_what">Your device doesn\'t have physical sensors or you have error with sensor service in device firmware. Try to fix it:</string>
-    <string name="no_sensor_do">- Reboot device\n- Reset sensors settings</string>
+    <string name="no_sensor_what">Il dispositivo non dispone di sensori fisici oppure si è verificato un errore del servizio sensori nel firmware dispositivo. Prova a risolverlo:</string>
+    <string name="no_sensor_do">- Riavvia dispositivo\n- Ripristina impostazioni sensori</string>
 
     
     <!-- Strings related to About -->

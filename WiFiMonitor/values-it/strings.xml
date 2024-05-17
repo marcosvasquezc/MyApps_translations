@@ -86,7 +86,7 @@
     <string name="load">Carico</string>
     <string name="streams">Stream</string>
     <string name="extensions">Estensioni</string>
-    <string name="discovery_mac_blocked_info">Receiving a list of connected devices is blocked.\nWill be used test method without MAC addresses.</string>
+    <string name="discovery_mac_blocked_info">La ricezione dell'elenco dei dispositivi connessi è bloccata.\nVerrà usaato il metodo di test senza indirizzi MAC.</string>
 
     <!-- p2p -->
     <string name="no_devices_found">Nessun dispositivo trovato</string>
