@@ -81,7 +81,7 @@
     <string name="help_proximity">Copri il sensore e la luce dovrebbe spegnersi.</string>
     <string name="help_light">Sposta il dispositivo verso la fonte di luce, le letture aumenteranno.\nValori tipici:\n- In una stanza 150 lx\n- In ufficio 350 lx\n- Giornata soleggiata 10.000 lx</string>
     <string name="help_magnetometer">Avvicina il dispositivo al metallo o al magnete, le letture aumenteranno.</string>
-    <string name="help_gyroscope">- Ruota il dispositivo attorno all'asse x, y, z.\n- Se metti il dispositivo in orizzontale o verticale e passi da verticale a orizzontale, il valore z dovrebbe aumentare.</string>
+    <string name="help_gyroscope">- Ruota il dispositivo attorno all\'asse x, y, z.\n- Se metti il dispositivo in orizzontale o verticale e passi da verticale a orizzontale, il valore z dovrebbe aumentare.</string>
     <string name="help_pressure">Pressione atmosferica normale:\n100 kPa = 1000 mbar ~ 750 mm Hg</string>
 
     <string name="help_sensor_not_installed">Il dispositivo non ha questo sensore o si è verificato un errore del servizio sensore nel firmware dispositivo</string>
