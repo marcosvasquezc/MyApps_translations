@@ -112,7 +112,7 @@
 
     <string name="pref_title_set_language">Lingua</string>
 
-    <string name="language_default">Predefinita</string>
+    <string name="language_default">Sistema</string>
 
     <string name="pref_title_dark_theme">Usa tema scuro</string>
     <string name="pref_description_dark_theme">Applica tema scuro all\'interfaccia</string>
