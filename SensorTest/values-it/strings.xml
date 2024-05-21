@@ -62,7 +62,7 @@
     
     <string name="pref_title_set_language">Lingua</string>
 
-    <string name="language_default">Predefinita</string>
+    <string name="language_default">Sistema</string>
 
     <string name="pref_title_use_pressure_mm_hg">Unità pressione</string>
     <string name="pref_description_use_pressure_mm_hg">Usa pressione in mm Hg</string>
